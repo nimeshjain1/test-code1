@@ -2,9 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-code1
-  
-  description: ''
-  
+
+  description: "Performs basic arithmetic operations by providing functions to add and subtract numbers."
   annotations:
     github.com/project-slug: nimeshjain1/test-code1
     backstage.io/techdocs-ref: dir:.
@@ -17,6 +16,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: user:default/nimeshjain1
-  
+
   system: System
-  
+
