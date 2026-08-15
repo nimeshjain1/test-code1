@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: CustomEntity
+metadata:
+  name: custom-entity
+  description: My first ever custom entity
+spec:
+  type: custom-entity-type1
+  profile:
+    displayName: Custom-Entity
+    email: entity@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
